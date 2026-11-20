@@ -59,6 +59,16 @@
             Console.WriteLine(Pages_To_Double);
 
             #endregion
+
+            #region Question 6
+
+            //6.Declare a double price = 49.99; then convert it into an int using a cast.
+
+            double Price = 49.99;
+            int Price_To_Int = (int)Price;
+            Console.WriteLine(Price_To_Int);
+
+            #endregion
         }
 
     }
