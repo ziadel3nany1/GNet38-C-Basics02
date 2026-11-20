@@ -1,9 +1,22 @@
 ﻿namespace FirstAssignment
 {
+    class Book
+    {
+        public string Title;
+        public int Pages;
+    }
     internal class Program
     {
         public static void Main(string[] args)
         {
+            #region Question 1
+            // 1. Create a Book class with a Title (string) and Pages (int). Create a Book object and store it in a variable of type object. Print it.
+            Book book = new Book();
+            book.Title = "Harry Potter";
+            book.Pages = 50;
+            object obj = book;
+            Console.WriteLine(obj);
+            #endregion
 
         }
     }
