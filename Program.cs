@@ -78,6 +78,20 @@
             Console.WriteLine(Pages_To_Int);
 
             #endregion
+
+            #region Question 8
+            //8.Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";
+            //, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+
+            string YearText = "2023";
+            int Year = int.Parse(YearText);
+            Console.WriteLine(Year);
+
+            string BadText = "abc";
+            int.TryParse(BadText, out int Text_To_Int);
+            Console.WriteLine(Text_To_Int);
+
+            #endregion
         }
 
     }
