@@ -27,6 +27,13 @@
             Console.WriteLine(book.GetType());
 
             #endregion
+
+            #region Question 3
+            //Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it
+            // it is a compile-time error
+            // int Pages = 464;
+            #endregion
         }
+
     }
 }
